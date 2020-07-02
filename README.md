@@ -1,6 +1,9 @@
-##Funções array JS
-Tendo a lista [1,2,3,4,5]
-const lista = [1,2,3,4,5];
+#Funções array JS
+
+###Tendo a lista [1,2,3,4,5]
+
+```const lista = [1,2,3,4,5];```
+
 let find = lista.find(item => item == 5);
 Result: 5
 Desc: Returns the value of the first element in the array where predicate is true, and undefined otherwise.
