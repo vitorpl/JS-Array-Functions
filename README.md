@@ -4,16 +4,22 @@
 
 ```const lista = [1,2,3,4,5];```
 
+## Função find()
+
 ```let find = lista.find(item => item == 5);```
 Result: 5
 
 Desc: Returns the value of the first element in the array where predicate is true, and undefined otherwise.
+
+## Função map()
 
 ```let map = lista.map(item => item * 2);```
 
 Result: 2,4,6,8,10
 
 Desc: Calls a defined callback function on each element of an array, and returns an array that contains the results.
+
+## Função reduce()
 
 ```
 function reduceFunc(prev, current, index, arr) {
