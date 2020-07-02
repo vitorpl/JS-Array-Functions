@@ -1,4 +1,4 @@
-Funções array JS
+##Funções array JS
 Tendo a lista [1,2,3,4,5]
 const lista = [1,2,3,4,5];
 let find = lista.find(item => item == 5);
